@@ -1,17 +1,23 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+
+const ButtonBar = styled.div`
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+`;
 
 const ButtonForm = styled.div`
   width: 32px;
   height: 32px;
-  border-radius: 
-`
+  border-radius: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  &:hover {
 
-function Button() {
-  return (
-    <div>
-      
-    </div>
-  )
+  }
+`;
+
+function Buttons() {
+  return <ButtonBar></ButtonBar>;
 }
 
-export defalut Button;
+export default Buttons;
